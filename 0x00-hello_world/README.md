@@ -1,1 +1,1 @@
-compiles a c file and creates an executable named cisfun
+c program to write a comment followed by a new line
