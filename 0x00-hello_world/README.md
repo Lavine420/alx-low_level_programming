@@ -1,1 +1,1 @@
-script file that runs through preprocessor and save result in another file
+write a c file that copiles but does not link
