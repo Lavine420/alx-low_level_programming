@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main - print a c prgram using pirntf
- * return:Always 0(Success)
+ * main - create comment c program using printf
+ * Return: 0
  */
 int main(void)
 {
