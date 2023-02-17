@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - print sizes of data types in c
  *
- * Return:Always 0 (Success0
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
