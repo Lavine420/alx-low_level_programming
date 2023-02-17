@@ -1,1 +1,1 @@
-c program to write a comment followed by a new line
+using printf to print comment followed by new line
