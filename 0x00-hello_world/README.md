@@ -1,1 +1,1 @@
-using printf to print comment followed by new line
+program that prints the size of various types on the computer
