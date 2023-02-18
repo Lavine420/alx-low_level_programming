@@ -1,1 +1,1 @@
-printing if number is positive,negative or zero
+assign a random number to the variable n each time it is executed
