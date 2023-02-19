@@ -11,7 +11,7 @@ int main(void)
 {
 	int n, dig;
 
-        srand(time(0));
+	srandtime(0));
 	n = rand() -  RAND_MAX / 2;
 	dig = n % 10;
 
