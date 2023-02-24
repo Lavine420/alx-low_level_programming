@@ -17,9 +17,10 @@ int main(void)
 	{
 		if (number % x == 0)
 		{
-			maxf = number / x;
+		maxf = number / x;
 		}
 	}
-	printf("ld\n", maxf);
+	printf("%ld\n", maxf);
+
 	return (0);
 }
