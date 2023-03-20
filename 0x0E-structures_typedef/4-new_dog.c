@@ -2,12 +2,15 @@
 #include <string.h>
 #include "dog.h"
 
+int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
+
 /**
  * new_dog - Creates a new dog
  * @name: Name
  * @age: Age
  * @owner: Owner
- * Return: Nothing
+ * Return: NULL
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -41,8 +44,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 			return (NULL);
 		}
 
-		max_dog->name = strcpy(max_dog->name, name);
-		max_dog->owner = strcpy(max_dog->owner, owner);
+		max_dog->name = _strcpy(max_dog->name, name);
+		max_dog->owner = _strcpy(max_dog->owner, owner);
 		max_dog->age = age;
 	}
 
@@ -68,7 +71,7 @@ int _strlen(char *s)
 }
 
 /**
- * strcpy - Copy a string
+ * _strcpy - Copy a string
  * @dest: Destination value
  * @src: Source value
  * Return: The pointer to dest
